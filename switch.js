@@ -153,6 +153,10 @@ switch (day) {
         console.log("Invalid day");
 }
 
-
+let fruit=["apple", "banana", "orange"];
+console.log(fruit);
+console.log(fruit.length);
+fruit.push("grape");
+console.log(fruit);
 
 
