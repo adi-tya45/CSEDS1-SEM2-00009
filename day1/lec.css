@@ -1,0 +1,94 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebfa16;
+    padding: 10px ;
+    margin-bottom: 10px;
+}
+#headname{
+    color: #35342a;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px;
+}
+.navlink{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.navlink:hover{
+    background-color: #b0b640;
+}
+
+#order{
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#order:hover{
+    background-color: #c70039;
+}
+
+body {
+  background-image: url('image.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  height: 100vh;
+  backdrop-filter: blur(4.5px);
+}
+.mainbody{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.list{
+    list-style-type: disc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.titlecards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.title{
+    background-color: #978d8ba9;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
