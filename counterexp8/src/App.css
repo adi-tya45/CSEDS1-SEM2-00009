@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.app-header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.counter-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.counter-display {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.counter-display h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.counter-value {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #667eea;
+  background: #f0f2ff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #667eea;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  color: white;
+  flex: 1;
+  min-width: 120px;
+}
+
+.btn-increment {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.btn-increment:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+.btn-decrement {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.btn-decrement:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(245, 87, 108, 0.4);
+}
+
+.btn-reset {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.btn-reset:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(79, 172, 254, 0.4);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.info-section {
+  background: #f0f2ff;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.info-section h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.info-section ul {
+  list-style: none;
+  color: #555;
+}
+
+.info-section li {
+  padding: 8px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.info-section li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .app-header h1 {
+    font-size: 2rem;
+  }
+
+  .counter-value {
+    font-size: 3rem;
+  }
+
+  .counter-card {
+    padding: 20px;
+  }
+
+  .btn {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    min-width: 100px;
+  }
+}

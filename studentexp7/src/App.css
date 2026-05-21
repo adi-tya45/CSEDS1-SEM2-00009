@@ -1,0 +1,43 @@
+.student-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  width: 260px;
+  border-top: 5px solid #4a90e2;
+  transition: transform 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+}
+
+.student-name {
+  margin: 0 0 15px 0;
+  color: #333333;
+  font-size: 1.4rem;
+}
+
+.student-details p {
+  margin: 8px 0;
+  color: #666666;
+  font-size: 1rem;
+}
+
+.status-badge {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.pass {
+  background-color: #e6f4ea;
+  color: #137333;
+}
+
+.fail {
+  background-color: #fce8e6;
+  color: #c5221f;
+}
